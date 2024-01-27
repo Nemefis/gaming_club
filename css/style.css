@@ -4,6 +4,14 @@ p {
   font-size: 16px;
 }
 
+.pt10 {
+  padding-top: 10px;
+}
+
+.about .card {
+  border: 0;
+}
+
 /* .tri-layout-middle div {
   height: 100%;
 } */
