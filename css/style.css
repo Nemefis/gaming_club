@@ -1,5 +1,7 @@
-p {
+* {
   font-family: "Montserrat", sans-serif;
+}
+p {
   font-weight: 400;
   font-size: 16px;
 }
@@ -18,3 +20,20 @@ p {
 /* .tri-layout-middle div {
   height: 100%;
 } */
+/* Footer START */
+.footer .row {
+  background: #101D2C;
+}
+.footer__logo {
+  padding-top: 80px;
+}
+.footer__menu {
+  padding-bottom: 80px;
+  padding-top: 80px;
+}
+.footer__link {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+}
+/* Footer END */
