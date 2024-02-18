@@ -20,6 +20,26 @@ p {
 /* .tri-layout-middle div {
   height: 100%;
 } */
+
+/* Gallery START */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(7, 5vw);
+  grid-gap: .5rem;
+}
+.gallery__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.gallery__item_1 {
+  grid-column: 1 / 3;
+  grid-row: 1 / 3;
+}
+/* Gallery END */
+
+
 /* Footer START */
 .footer .row {
   background: #101D2C;
